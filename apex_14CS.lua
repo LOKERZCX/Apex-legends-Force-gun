@@ -13,7 +13,7 @@ f1 正常左键模式   f2 re45   f3  转换者
 f4 喷火   	f5 lstear  	f6 专注   
 f7  猎兽    f8 g7双发   f9 专注max
 ]]--
-benabled = false
+bEnabled = false
 point1 = false
 point2 = false
 point3 = false
