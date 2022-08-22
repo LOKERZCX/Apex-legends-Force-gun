@@ -1,7 +1,7 @@
---[[鼠标灵敏度2
+--[[鼠标灵敏度2.5
 键盘三盏灯对应配置
 n       c       s       枪
-0       0       0       无配置           
+0       0       0       无配置           F1 正常左键模式   F2 re45   F3  转换者		F4 喷火   	F5 Lstear  	F6 专注   F7  猎兽    F8 g7双发   
 0       0       1      电能冲锋枪
 0       1       0       r99
 0       1       1      哈沃克满配
@@ -9,16 +9,14 @@ n       c       s       枪
 1       0       1       平行
 1       1       0       赫姆洛克
 1       1       1       car
-f1 正常左键模式   f2 re45   f3  转换者		
-f4 喷火   	f5 lstear  	f6 专注   
-f7  猎兽    f8 g7双发   f9 专注max
 ]]--
-benabled = false
+bEnabled = false 
 point1 = false
 point2 = false
 point3 = false
-point4 = false
+
 EnablePrimaryMouseButtonEvents(true);
+
 zhuanzhu = {
     {layer = 150,X = 0,Y = 0},
     {layer = 100,X = 0,Y = 35},
@@ -284,254 +282,254 @@ hmlk = {
 
 re45 = {
 
-	{layer = 70,X = -1,Y = 13},
-{layer = 70,X = -1,Y = 11},
-{layer = 60,X = -6,Y = 11},
-{layer = 60,X = -3,Y = 12},
-{layer = 70,X = -4,Y = 10},
-{layer = 70,X = -6,Y = 8},
-{layer = 70,X = -10,Y = 7},
-{layer = 70,X = -10,Y = 7},
-{layer = 70,X = -7,Y = 6},
-{layer = 70,X = -7,Y = 5},
-{layer = 70,X = -5,Y = 5},
-{layer = 70,X = 1,Y = 6},
-{layer = 70,X = -6,Y = 6},
-{layer = 70,X = -3,Y = 5},
-{layer = 70,X = -2,Y = 6},
-{layer = 70,X = 2,Y = 6},
-{layer = 70,X = -3,Y = 5},
-{layer = 70,X = -5,Y = 1},
-{layer = 70,X = -5,Y = 3},
-{layer = 70,X = -4,Y = 4},
-{layer = 70,X = -5,Y = 2},
-{layer =70,X = -5,Y = 4},
-{layer = 70,X = -5,Y = 2},
-{layer =70,X = -5,Y = 4},
-{layer = 70,X = -5,Y = 2},
-{layer =70,X = -5,Y = 4},
-{layer = 70,X = -5,Y = 0}
+	{layer = 70.0,X = -0.7,Y = 12.6},
+{layer = 70.0,X = -1.4,Y = 10.9},
+{layer = 60.0,X = -6.1,Y = 11.2},
+{layer = 60.0,X = -3.0,Y = 11.6},
+{layer = 70.0,X = -4.1,Y = 9.9},
+{layer = 70.0,X = -5.7,Y = 8.0},
+{layer = 70.0,X = -9.9,Y = 7.1},
+{layer = 70.0,X = -9.7,Y = 6.9},
+{layer = 70.0,X = -7.2,Y = 6.2},
+{layer = 70.0,X = -6.7,Y = 5.0},
+{layer = 70.0,X = -4.7,Y = 5.1},
+{layer = 70.0,X = 1.0,Y = 6.4},
+{layer = 70.0,X = -5.7,Y = 5.7},
+{layer = 70.0,X = -3.4,Y = 5.1},
+{layer = 70.0,X = -2.4,Y = 6.4},
+{layer = 70.0,X = 2.4,Y = 5.7},
+{layer = 70.0,X = -3.1,Y = 4.7},
+{layer = 70.0,X = -5.1,Y = 1.3},
+{layer = 70.0,X = -4.7,Y = 3.4},
+{layer = 70.0,X = -3.7,Y = 4.1},
+{layer = 70.0,X = -5.1,Y = 2.4},
+{layer =70.0,X = -5.1,Y = 4.1},
+{layer = 70.0,X = -5.1,Y = 2.4},
+{layer =70.0,X = -5.1,Y = 4.1},
+{layer = 70.0,X = -5.1,Y = 2.4},
+{layer =70.0,X = -5.1,Y = 4.1},
+{layer = 70.0,X = -5.0,Y = 0.0}
 
 
 }
 
 zhuanhuanzhe = {
-	{layer = 109,X = 0,Y = 18},
-{layer = 109,X = 0,Y = 17},
-{layer = 109,X = 0,Y = 19},
-{layer = 109,X = 0,Y = 18},
-{layer = 109,X = 0,Y = 18},
-{layer = 109,X = 0,Y = 19},
-{layer = 109,X = -2,Y = 15},
-{layer = 109,X = -2,Y = 9},
-{layer = 109,X = -3,Y = 17},
-{layer = 109,X = -3,Y = 10},
-{layer = 109,X = -3,Y = 10},
-{layer = 109,X = -2,Y = 9},
-{layer = 109,X = -2,Y = 10},
-{layer = 109,X = -2,Y = 10},
-{layer = 109,X = -1,Y = 10},
-{layer = 109,X = 0,Y = 9},
-{layer = 109,X = 5,Y = 3},
-{layer = 109,X = 5,Y = 10},
-{layer = 109,X = 5,Y = 10},
-{layer = 109,X = 5,Y = 8},
-{layer = 109,X = 5,Y = 9},
-{layer = 109,X = 5,Y = 7},
-{layer = 109,X = 5,Y = 10},
-{layer = 109,X = 5,Y = 8},
-{layer = 109,X = 5,Y = -1},
-{layer = 109,X = 5,Y = 7},
-{layer = 109,X = 5,Y = 9}
+	{layer = 109.0,X = 0.0,Y = 18.4},
+{layer = 109.0,X = 0.0,Y = 17.0},
+{layer = 109.0,X = 0.0,Y = 18.8},
+{layer = 109.0,X = 0.0,Y = 17.9},
+{layer = 109.0,X = 0.0,Y = 17.6},
+{layer = 109.0,X = 0.0,Y = 18.6},
+{layer = 109.0,X = -2.0,Y = 14.7},
+{layer = 109.0,X = -2.0,Y = 9.3},
+{layer = 109.0,X = -3.0,Y = 17.2},
+{layer = 109.0,X = -3.0,Y = 9.6},
+{layer = 109.0,X = -3.0,Y = 9.8},
+{layer = 109.0,X = -2.0,Y = 9.2},
+{layer = 109.0,X = -2.0,Y = 9.8},
+{layer = 109.0,X = -2.0,Y = 9.6},
+{layer = 109.0,X = -1.0,Y = 10.0},
+{layer = 109.0,X = 0.0,Y = 9.3},
+{layer = 109.0,X = 5.0,Y = 3.2},
+{layer = 109.0,X = 5.0,Y = 9.8},
+{layer = 109.0,X = 5.0,Y = 9.7},
+{layer = 109.0,X = 5.0,Y = 8.3},
+{layer = 109.0,X = 5.0,Y = 9.2},
+{layer = 109.0,X = 5.0,Y = 7.1},
+{layer = 109.0,X = 5.0,Y = 9.7},
+{layer = 109.0,X = 5.0,Y = 7.6},
+{layer = 109.0,X = 5.0,Y = -0.7},
+{layer = 109.0,X = 5.0,Y = 6.8},
+{layer = 109.0,X = 5.0,Y = 9.0}
 }
 
 phqjq = {
-	{layer = 110,X = 3,Y = 15},
-{layer = 110,X = 2,Y = 5},
-{layer = 110,X = 10,Y = 10},
-{layer = 110,X = 6,Y = 7},
-{layer = 110,X = 3,Y = 9},
-{layer = 110,X = -0,Y = 9},
-{layer = 110,X = -5,Y = 3},
-{layer = 110,X = -10,Y = -2},
-{layer = 110,X = -3,Y = -2},
-{layer = 110,X = -4,Y = 3},
-{layer = 110,X = -3,Y = 7},
-{layer = 110,X = 5,Y = 2},
-{layer = 110,X = 10,Y = 4},
-{layer = 110,X = 5,Y = 1},
-{layer = 110,X = 10,Y = -2},
-{layer = 110,X = 4,Y = 1},
-{layer = 110,X = 2,Y = 8},
-{layer = 110,X = 3,Y = 8},
-{layer = 110,X = 7,Y = 4},
-{layer = 110,X = 9,Y = 2},
-{layer = 113,X = 4,Y = 1},
-{layer = 113,X = -1,Y = 5},
-{layer = 113,X = -7,Y = 3},
-{layer = 113,X = -5,Y = 2},
-{layer = 113,X = -8,Y = 2},
-{layer = 113,X = -8,Y = 1},
-{layer = 113,X = -8,Y = -1},
-{layer = 113,X = -3,Y = 4},
-{layer = 113,X = -5,Y = 4},
-{layer = 113,X = -0,Y = 4},
-{layer = 113,X = -10,Y = -2},
-{layer = 113,X = -3,Y = -2},
-{layer = 113,X = -4,Y = 2},
-{layer = 113,X = -3,Y = 3},
-{layer = 113,X = 5,Y = 2},
-{layer = 113,X = 10,Y = 3},
-{layer = 113,X = 5,Y = 1},
-{layer = 113,X = 10,Y = -2},
-{layer = 113,X = 4,Y = 1},
-{layer = 113,X = 2,Y = 8},
-{layer = 113,X = 3,Y = 8},
-{layer = 113,X = 7,Y = 4},
-{layer = 113,X = 9,Y = 2},
-{layer = 113,X = 4,Y = 0},
-{layer = 113,X = -1,Y = 6},
-{layer = 113,X = -7,Y = 3},
-{layer = 113,X = -5,Y = 3},
-{layer = 113,X = -8,Y = 3},
-{layer = 113,X = -8,Y = 2},
-{layer = 113,X = -8,Y = -2},
-{layer = 113,X = -3,Y = 5},
-{layer = 113,X = -5,Y = 6},
-{layer = 113,X = -0,Y = 6},
-{layer = 113,X = -10,Y = -2},
-{layer = 113,X = -3,Y = -2},
-{layer = 113,X = -4,Y = 3},
-{layer = 113,X = -3,Y = 7},
-{layer = 113,X = 5,Y = 2},
-{layer = 113,X = 10,Y = 4},
-{layer = 113,X = 5,Y = 1},
-{layer = 113,X = 10,Y = -2}
+	{layer = 110.0,X = 3.0,Y = 15.2},
+{layer = 110.0,X = 1.5,Y = 4.8},
+{layer = 110.0,X = 9.6,Y = 9.6},
+{layer = 110.0,X = 6.3,Y = 7.0},
+{layer = 110.0,X = 3.3,Y = 9.2},
+{layer = 110.0,X = -0.3,Y = 9.2},
+{layer = 110.0,X = -4.5,Y = 2.6},
+{layer = 110.0,X = -9.6,Y = -2.0},
+{layer = 110.0,X = -2.7,Y = -1.6},
+{layer = 110.0,X = -3.9,Y = 3.2},
+{layer = 110.0,X = -2.7,Y = 6.6},
+{layer = 110.0,X = 4.5,Y = 2.0},
+{layer = 110.0,X = 9.9,Y = 4.4},
+{layer = 110.0,X = 5.1,Y = 1.4},
+{layer = 110.0,X = 9.6,Y = -1.6},
+{layer = 110.0,X = 4.2,Y = 1.4},
+{layer = 110.0,X = 1.8,Y = 7.8},
+{layer = 110.0,X = 3.3,Y = 7.6},
+{layer = 110.0,X = 6.9,Y = 4.4},
+{layer = 110.0,X = 9.0,Y = 1.8},
+{layer = 113.0,X = 3.9,Y = 0.6},
+{layer = 113.0,X = -1.2,Y = 5.0},
+{layer = 113.0,X = -6.9,Y = 2.5},
+{layer = 113.0,X = -4.5,Y = 2.0},
+{layer = 113.0,X = -7.8,Y = 2.2},
+{layer = 113.0,X = -8.1,Y = 1.0},
+{layer = 113.0,X = -7.8,Y = -1.0},
+{layer = 113.0,X = -3.3,Y = 3.6},
+{layer = 113.0,X = -4.5,Y = 4.2},
+{layer = 113.0,X = -0.3,Y = 4.2},
+{layer = 113.0,X = -9.6,Y = -2.0},
+{layer = 113.0,X = -2.7,Y = -1.6},
+{layer = 113.0,X = -3.9,Y = 2.2},
+{layer = 113.0,X = -2.6,Y = 3.0},
+{layer = 113.0,X = 4.5,Y = 1.5},
+{layer = 113.0,X = 9.9,Y = 3.4},
+{layer = 113.0,X = 5.1,Y = 1.4},
+{layer = 113.0,X = 9.6,Y = -1.6},
+{layer = 113.0,X = 4.2,Y = 1.4},
+{layer = 113.0,X = 1.8,Y = 7.8},
+{layer = 113.0,X = 3.3,Y = 7.6},
+{layer = 113.0,X = 6.9,Y = 4.4},
+{layer = 113.0,X = 9.0,Y = 1.8},
+{layer = 113.0,X = 3.9,Y = 0.6},
+{layer = 113.0,X = -1.2,Y = 5.6},
+{layer = 113.0,X = -6.9,Y = 3.2},
+{layer = 113.0,X = -4.5,Y = 2.6},
+{layer = 113.0,X = -7.8,Y = 3.2},
+{layer = 113.0,X = -8.1,Y = 2.0},
+{layer = 113.0,X = -7.8,Y = -2.0},
+{layer = 113.0,X = -3.3,Y = 4.6},
+{layer = 113.0,X = -4.5,Y = 6.2},
+{layer = 113.0,X = -0.3,Y = 6.2},
+{layer = 113.0,X = -9.6,Y = -2.0},
+{layer = 113.0,X = -2.7,Y = -1.6},
+{layer = 113.0,X = -3.9,Y = 3.2},
+{layer = 113.0,X = -2.7,Y = 6.6},
+{layer = 113.0,X = 4.5,Y = 2.0},
+{layer = 113.0,X = 9.9,Y = 4.4},
+{layer = 113.0,X = 5.1,Y = 1.4},
+{layer = 113.0,X = 9.6,Y = -1.6}
 }
 
 lstar = {
-	{layer = 37,X = 2,Y = 5},
-{layer = 37,X = 1,Y = 5},
-{layer = 37,X = 2,Y = 5},
-{layer = 37,X = 2,Y = 5},
-{layer = 37,X = 2,Y = 5},
-{layer = 37,X = 2,Y = 5},
-{layer = 37,X = 2,Y = 5},
-{layer = 37,X = 2,Y = 5},
-{layer = 37,X = 2,Y = 5},
-{layer = 32,X = 1,Y = 5},
-{layer = 32,X = -1,Y = 5},
-{layer = 37,X = -1,Y = 5},
-{layer = 32,X = -2,Y = 5},
-{layer = 32,X = -3,Y = 5},
-{layer = 32,X = -3,Y = 5},
-{layer = 42,X = 0,Y = 5},
-{layer = 42,X = -1,Y = 5},
-{layer = 42,X = 0,Y = 5},
-{layer = 42,X = 1,Y = 5},
-{layer = 42,X = 2,Y = 5},
-{layer = 42,X = 2,Y = 5},
-{layer = 42,X = 1,Y = 5},
-{layer = 55,X = 1,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 1,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5},
-{layer = 55,X = 0,Y = 5}
+	{layer = 37.0,X = 2.0,Y = 5.0},
+{layer = 37.0,X = 1.0,Y = 5.0},
+{layer = 37.0,X = 2.0,Y = 5.0},
+{layer = 37.0,X = 2.0,Y = 5.0},
+{layer = 37.0,X = 2.0,Y = 5.0},
+{layer = 37.0,X = 2.0,Y = 5.0},
+{layer = 37.0,X = 2.0,Y = 5.0},
+{layer = 37.0,X = 2.0,Y = 5.0},
+{layer = 37.0,X = 2.0,Y = 5.0},
+{layer = 32.0,X = 1.0,Y = 5.0},
+{layer = 32.0,X = -1.0,Y = 5.0},
+{layer = 37.0,X = -1.0,Y = 5.0},
+{layer = 32.0,X = -2.0,Y = 5.0},
+{layer = 32.0,X = -3.0,Y = 5.0},
+{layer = 32.0,X = -3.0,Y = 5.0},
+{layer = 42.0,X = 0.0,Y = 5.0},
+{layer = 42.0,X = -1.0,Y = 5.0},
+{layer = 42.0,X = 0.0,Y = 5.0},
+{layer = 42.0,X = 1.0,Y = 5.0},
+{layer = 42.0,X = 2.0,Y = 5.0},
+{layer = 42.0,X = 2.0,Y = 5.0},
+{layer = 42.0,X = 1.0,Y = 5.0},
+{layer = 55.0,X = 1.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 1.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0},
+{layer = 55.0,X = 0.0,Y = 5.0}
 }
 
 havoc = {
-	{layer = 460,X = 0,Y = 0},
-{layer = 84,X = -7,Y = 15},
-{layer = 84,X = -7,Y = 19},
-{layer = 84,X = -2,Y = 17},
-{layer = 84,X = -2,Y = 17},
-{layer = 84,X = 0,Y = 14},
-{layer = 84,X = 4,Y = 10},
- {layer = 84,X = 7,Y = 10},
- {layer = 84,X = 7,Y = 8},
- {layer = 84,X = 2,Y = 11},
- {layer = 84,X = -7,Y = 9},
- {layer = 84,X = -8,Y = 6},
- {layer = 84,X = -13,Y = 2},
- {layer = 84,X = -13,Y = 2},
- {layer = 84,X = -13,Y = 2},
- {layer = 84,X = -1,Y = 13},
- {layer = 84,X = 12,Y = 6},
- {layer = 84,X = 12,Y = 6},
- {layer = 84,X = 12,Y = 4},
- {layer = 84,X = 12,Y = 6},
- {layer = 84,X = 12,Y = 6},
- {layer = 84,X = 12,Y = 6},
- {layer = 84,X = 6,Y = 12},
- {layer = 84,X = 6,Y = 6},
- {layer = 84,X = 6,Y = 6},
- {layer = 84,X = -8,Y = 13},
- {layer = 84,X = 6,Y = 6},
- {layer = 84,X = 6,Y = 10},
- {layer = 84,X = 6,Y = 10},
- {layer = 84,X = 6,Y = 6},
- {layer = 84,X = 2,Y = 10},
- {layer = 84,X = 1,Y = 9},
- {layer = 84,X = -5,Y = 12},
- {layer = 84,X = 6,Y = 6},
- {layer = 84,X = 6,Y = 6},
+	{layer = 460.0,X = 0.0,Y = 0.0},
+{layer = 84.0,X = -7,Y = 15},
+{layer = 84.0,X = -7,Y = 19},
+{layer = 84.0,X = -2,Y = 17},
+{layer = 84.0,X = -2,Y = 17},
+{layer = 84.0,X = 0,Y = 14},
+{layer = 84.0,X = 4,Y = 10},
+ {layer = 84.0,X = 7,Y = 10},
+ {layer = 84.0,X = 7,Y = 8},
+ {layer = 84.0,X = 2.8,Y = 11.1},
+ {layer = 84.0,X = -7,Y = 9},
+ {layer = 84.0,X = -8,Y = 6},
+ {layer = 84.0,X = -13,Y = 2},
+ {layer = 84.0,X = -13,Y = 2},
+ {layer = 84.0,X = -13,Y = 2},
+ {layer = 84.0,X = -1,Y = 13},
+ {layer = 84.0,X = 12,Y = 6},
+ {layer = 84.0,X = 12,Y = 6},
+ {layer = 84.0,X = 12,Y = 4},
+ {layer = 84.0,X = 12,Y = 6},
+ {layer = 84.0,X = 12,Y = 6},
+ {layer = 84.0,X = 12,Y = 6},
+ {layer = 84.0,X = 6,Y = 12},
+ {layer = 84.0,X = 6,Y = 6},
+ {layer = 84.0,X = 6,Y = 6},
+ {layer = 84.0,X = -8,Y = 13},
+ {layer = 84.0,X = 6,Y = 6},
+ {layer = 84.0,X = 6,Y = 10},
+ {layer = 84.0,X = 6,Y = 10},
+ {layer = 84.0,X = 6,Y = 6},
+ {layer = 84.0,X = 2,Y = 10},
+ {layer = 84.0,X = 1,Y = 9},
+ {layer = 84.0,X = -5,Y = 12},
+ {layer = 84.0,X = 6,Y = 6},
+ {layer = 84.0,X = 6,Y = 6},
 
 }
 
 havocmax = {
-	{layer = 60,X = 0,Y = 0},
-{layer = 84,X = -7,Y = 15},
-{layer = 84,X = -7,Y = 19},
-{layer = 84,X = -2,Y = 17},
-{layer = 84,X = -2,Y = 17},
-{layer = 84,X = 0,Y = 14},
-{layer = 84,X = 4,Y = 10},
- {layer = 84,X = 7,Y = 10},
- {layer = 84,X = 7,Y = 8},
- {layer = 84,X = 2,Y = 11},
- {layer = 84,X = -7,Y = 9},
- {layer = 84,X = -8,Y = 6},
- {layer = 84,X = -13,Y = 2},
- {layer = 84,X = -13,Y = 2},
- {layer = 84,X = -13,Y = 2},
- {layer = 84,X = -1,Y = 13},
- {layer = 84,X = 12,Y = 6},
- {layer = 84,X = 12,Y = 6},
- {layer = 84,X = 12,Y = 4},
- {layer = 84,X = 12,Y = 6},
- {layer = 84,X = 12,Y = 6},
- {layer = 84,X = 12,Y = 6},
- {layer = 84,X = 6,Y = 12},
- {layer = 84,X = 6,Y = 6},
- {layer = 84,X = 6,Y = 6},
- {layer = 84,X = -8,Y = 13},
- {layer = 84,X = 6,Y = 6},
- {layer = 84,X = 6,Y = 10},
- {layer = 84,X = 6,Y = 10},
- {layer = 84,X = 6,Y = 6},
- {layer = 84,X = 2,Y = 10},
- {layer = 84,X = 1,Y = 9},
- {layer = 84,X = -5,Y = 12},
- {layer = 84,X = 6,Y = 6},
- {layer = 84,X = 6,Y = 6},
+	{layer = 60.0,X = 0.0,Y = 0.0},
+{layer = 84.0,X = -7,Y = 15},
+{layer = 84.0,X = -7,Y = 19},
+{layer = 84.0,X = -2,Y = 17},
+{layer = 84.0,X = -2,Y = 17},
+{layer = 84.0,X = 0,Y = 14},
+{layer = 84.0,X = 4,Y = 10},
+ {layer = 84.0,X = 7,Y = 10},
+ {layer = 84.0,X = 7,Y = 8},
+ {layer = 84.0,X = 2.8,Y = 11.1},
+ {layer = 84.0,X = -7,Y = 9},
+ {layer = 84.0,X = -8,Y = 6},
+ {layer = 84.0,X = -13,Y = 2},
+ {layer = 84.0,X = -13,Y = 2},
+ {layer = 84.0,X = -13,Y = 2},
+ {layer = 84.0,X = -1,Y = 13},
+ {layer = 84.0,X = 12,Y = 6},
+ {layer = 84.0,X = 12,Y = 6},
+ {layer = 84.0,X = 12,Y = 4},
+ {layer = 84.0,X = 12,Y = 6},
+ {layer = 84.0,X = 12,Y = 6},
+ {layer = 84.0,X = 12,Y = 6},
+ {layer = 84.0,X = 6,Y = 12},
+ {layer = 84.0,X = 6,Y = 6},
+ {layer = 84.0,X = 6,Y = 6},
+ {layer = 84.0,X = -8,Y = 13},
+ {layer = 84.0,X = 6,Y = 6},
+ {layer = 84.0,X = 6,Y = 10},
+ {layer = 84.0,X = 6,Y = 10},
+ {layer = 84.0,X = 6,Y = 6},
+ {layer = 84.0,X = 2,Y = 10},
+ {layer = 84.0,X = 1,Y = 9},
+ {layer = 84.0,X = -5,Y = 12},
+ {layer = 84.0,X = 6,Y = 6},
+ {layer = 84.0,X = 6,Y = 6},
 
 }
 
@@ -575,7 +573,6 @@ function OnEvent(event, arg, family)
 		point1 = false
 		point2 = false
 		point3 = false
-		point4 = false
 		if IsKeyLockOn("scrolllock") then
 			PressAndReleaseKey("scrolllock")
 		end
@@ -681,22 +678,6 @@ function OnEvent(event, arg, family)
 		point1 = true
 		point2 = true
 		point3 = true
-		if IsKeyLockOn("scrolllock") then
-			PressAndReleaseKey("scrolllock")
-		end
-		if IsKeyLockOn("numlock") then
-			PressAndReleaseKey("numlock")
-		end
-		if IsKeyLockOn("capslock") then
-			PressAndReleaseKey("capslock")
-		end
-	end
-
-		if (event == "G_PRESSED" and arg == 9) then
-		point1 = false
-		point2 = false
-		point3 = false
-		point4 = true
 		if IsKeyLockOn("scrolllock") then
 			PressAndReleaseKey("scrolllock")
 		end
@@ -902,22 +883,6 @@ function OnEvent(event, arg, family)
             ReleaseKey("n");
             bEnabled = false
 		end
-	end
-
-		if (event == "MOUSE_BUTTON_PRESSED" and bEnabled == false and IsKeyLockOn("numlock") ==false and IsKeyLockOn("capslock") ==false and IsKeyLockOn("scrolllock") == false and point1 ==false and point2 ==false and point3 == false and point4 == true) then
-			if arg == 1 then
-				bEnabled = true
-				PressKey("n");
-				Sleep(15)
-				for i = 1, #zhuanzhumax do
-					if IsMouseButtonPressed(1) then
-					MoveMouseRelative(zhuanzhumax[i].X, zhuanzhumax[i].Y)
-					Sleep(zhuanzhumax[i].layer);
-					end
-				end
-				ReleaseKey("n");
-				bEnabled = false
-			end
         --[[if arg == 1 then
             bEnabled = true
             PressKey("n");
